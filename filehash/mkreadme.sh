@@ -8,6 +8,6 @@ for f in *; do
 	  sha1=$(shasum -a 1 $f | cut -d' ' -f 1)
 	  md5=$(md5sum $f | cut -d' ' -f 1)
 		file=$(file $f | cut -d' ' -f 2-)
-		echo "[$sha2]($f} | [$sha1]($f) | [$md5]($f) | $file"
+		echo "[$sha2]($f) | [$sha1]($f) | [$md5]($f) | $file"
 	fi
 done
