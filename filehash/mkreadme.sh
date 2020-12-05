@@ -2,9 +2,9 @@
 
 echo "sha256 | sha1 | md5 | file type"
 echo "------ | ---- | --- | ---------"
-for f in *; do
+for f in sha256/*; do
   if [ ${f: -3} != ".md" ]; then
-	  sha2=$f
+	  sha2=$(basename $f)
 	  sha1=$(shasum -a 1 $f | cut -d' ' -f 1)
 	  md5=$(md5sum $f | cut -d' ' -f 1)
 		file=$(file $f | cut -d' ' -f 2-)
