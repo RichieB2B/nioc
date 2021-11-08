@@ -1,3 +1,13 @@
+Working with Cyber Threat Intelligence for detecting security threats
+requires being able to separate real threats from the fake ones. Chasing
+false positives wastes time. Unfortunately even commercial CTI feeds are
+littered with bad quality Indicators of Compromise (IoC\'s). This repository
+consists of data that are guaranteed to pose no threat at all. They all all
+bona fide No Indicators of Compromise.
+
+If you encounter an false positive IoC\'s anywhere please add it to this
+repository and make a pull request.
+
 sha256 | sha1 | md5 | file type
 ------ | ---- | --- | ---------
 [206f42d520769f5a05fa12453b0f4d567026fbe55bde8620043bef201b7f9540](sha256/206f42d520769f5a05fa12453b0f4d567026fbe55bde8620043bef201b7f9540) | [ba4463511e210d31c0f65e6aae75ba2209b17f8b](sha256/206f42d520769f5a05fa12453b0f4d567026fbe55bde8620043bef201b7f9540) | [46f537b8724d88ea1dd1fc049391cadf](sha256/206f42d520769f5a05fa12453b0f4d567026fbe55bde8620043bef201b7f9540) | HTML document text, ASCII text, with CRLF line terminators
